@@ -6,9 +6,11 @@ block_cipher = None
 
 a = Analysis(
     ['main.py'],
-    pathex=[],
+    pathex=[r'D:\gitcode\Python_learning\qt\multiply_show'],
     binaries=[],
-    datas=[],
+    datas=[('xlogo.ico', './'),
+        ('qrcode_for_michael.jpg', './')
+    ],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
